@@ -18,6 +18,7 @@ class _DetailPageState extends State<DetailPage> {
 
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.blueGrey,
         title: Text(args['webpage']),
       ),
       body: InAppWebView(
